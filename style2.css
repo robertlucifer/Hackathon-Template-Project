@@ -1,0 +1,279 @@
+*{
+margin:0px;
+padding:0px;
+text-decoration: none;
+list-style: none;
+font-family: 'Noto Sans', sans-serif;
+}
+
+.header{
+   width: 100%;
+   height: 100vh;
+   position: relative;
+   background-image: url('tesla\ \(4\).jfif');
+   background-size: cover;
+
+}
+.header::before{
+    content: '';
+    position: absolute;
+    bottom:0;
+    width:  100%;
+    height:400px;
+    background: linear-gradient(to top, #000,transparent);
+    z-index: 11;
+}
+.logo{
+    font-size: 28px;
+    color:#000;
+    font-weight: 500;
+    margin: 25px 0 0 80px;
+    position: absolute;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+  .navigation{
+    display: flex;
+    align-items: center;
+    
+    border-radius: 8px;
+    margin-top:25px;
+    margin-left: 550px;
+    position:absolute;
+    
+  }
+  .navigation li{
+    list-style: none;
+    margin:  0 20px; /*margin can also use*/
+  
+  }
+  .navigation li a{
+    position: relative;
+    color: #333;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 3px 0;
+  }
+  .navigation li a:before{ /*animation1*/
+    content: '';
+    position:absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    background-color:#000;
+    transition: all 0.5s ease;
+  }
+  .navigation li a:hover:before{
+    width: 100%;
+  }                             
+  .navigation2{
+    display: flex;
+    position: absolute;
+    margin-top:25px;
+    margin-left: 1150px;
+    align-items: center;
+    border-radius: 8px;
+  }
+  .navigation2 li{
+    list-style: none;
+    margin:0 50px ;
+  }
+  .navigation2 li a{
+    color:#000; 
+    position:absolute;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+  }
+.navigation3{
+    display: flex;
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 200px;
+    align-items: center;
+
+}
+.navigation3 li{
+    padding: 0 100px;
+    color:white;
+    z-index: 100;
+    font-size: 32px;
+}
+.navigation4{
+    display: flex;
+    position: absolute;
+    margin-top: 650px;
+    margin-left: 190px;
+    align-items: center;
+}
+.navigation4 li{
+    padding: 0 100px;
+    color:white;
+    z-index: 100;
+    font-size: 24px;
+}
+.car-name{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 680px;
+    font-size: 32px;
+}
+.body1{
+    width: 100%;
+   height: 200vh;
+   position: relative;
+    background-color: #000;
+}
+.feature-head{
+    color:#fff;
+    position: absolute;
+    left: 650px;
+    top:50px;
+    font-size: 48px;
+}
+.image1{
+    position: absolute;
+    height: 335px;
+    top: 200px;
+    left: 160px;
+}
+.image2{
+    position: absolute;
+    height: 335px;
+    top: 540px;
+    right: 160px;
+}
+
+.image3{
+    position: absolute;
+    height: 335px;
+    top:880px;
+    left: 160px;
+}
+.image1-title{
+    position: absolute;
+    color:#fff;
+    top:260px;
+    left: 820px;
+}
+.image1-para{
+position: absolute;
+color:#fff;
+top:320px;
+    left: 820px;
+}
+.image2-title{
+    position: absolute;
+    color:#fff;
+    top:605px;
+    left: 160px;
+}
+.image2-para{
+    position: absolute;
+    color:#fff;
+    top:665px;
+        left: 160px;
+}
+.image3-title{
+    position: absolute;
+    color:#fff;
+    top:935px;
+    left: 820px;
+}
+.image3-para{
+    position: absolute;
+    color:#fff;
+    top:995px;
+        left: 820px;
+}
+
+
+.footer1{
+    position: relative;
+    height: 725px;
+
+}
+.bottom ul {
+    display: flex;
+    position: absolute;
+    margin-top: 700px;
+    margin-left:380px;
+}
+.bottom ul li{
+    padding-left: 20px;
+    color: grey;
+    
+}
+.footer-para{
+    position: absolute;
+    color: grey;
+    margin-top: 570px;
+    margin-left:400px;
+    text-align: center;
+}
+.footer-image{
+    height: 500px;
+    width: 850px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 650px;
+}
+.footer-model{
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 200px;
+}
+.footer-button1{
+    top: 250px;
+    left: 180px;
+    position: absolute;
+background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 7px 60px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.footer-button1:hover {
+    background-color: black;
+    color: white;
+}
+.footer-button2{
+    top: 250px;
+    left: 400px;
+    position: absolute;
+    background-color: white;
+        color: black;
+        border: 2px solid black;
+        padding: 7px 60px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 10px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        border-radius: 50px;
+}
+.footer-button2:hover {
+    background-color: black;
+    color: white;
+}
+::-webkit-scrollbar{
+    width: 6px;
+}
+::-webkit-scrollbar-track{
+    background-color: #000;
+
+}
+::-webkit-scrollbar-thumb{
+    background-color: #fff;
+    border-radius: 20px;
+}
